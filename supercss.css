@@ -10,13 +10,18 @@ body {
 
 /* Style for h1 elements */
 h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 24px;
 }
 
+h2 {
+    color:rgb(255, 255, 255)
+}
+
+
 /* Style for p elements */
 p {
-    color: #666;
+    color: #ffffff;
     font-size: 16px;
 }
 
