@@ -30,3 +30,16 @@ img {
     height: auto;       /* Height adjusts automatically to maintain aspect ratio */
   }
   
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box {
+    flex: 1 1 200px;        /* Flex-grow, flex-shrink, flex-basis */
+    background-color: rgb(68, 68, 68);
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
